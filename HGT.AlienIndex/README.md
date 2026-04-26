@@ -55,13 +55,13 @@ For more details, please visit [Alienness](https://alienness.sophia.inrae.fr/cgi
 
 ## :pencil2: Authors
 
-Xiao CHEN, PhD
+Xiao Chen, PhD
 
 Marine College, Shandong University, Weihai
 
 <https://www.researchgate.net/profile/Xiao_Chen126>
 
-Lei YANG, Ph.D. Candidate
+Lei Yang, Ph.D. Candidate
 
 Marine College, Shandong University, Weihai
 

@@ -2,7 +2,7 @@
 ##'
 ##' The output by BLAST or diamond BLAST will be used as input of 'HGT.HGTIndex' and should be in a tabular format with 12 columns. 
 ##'
-##' For BLAST, the output parameter should be: -outfmt '6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore'. 
+##' For BLAST, the output parameter should be: -outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore. 
 ##'
 ##' For diamond BLAST, the output parameter should be: -outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore. 
 ##'
@@ -10,8 +10,9 @@
 ##' @title HGT.HGTIndex
 ##' @param blast_output_donor Input file with 12 columns in tab-delimited format
 ##' @param blast_output_recipient Input file with 12 columns in tab-delimited format
+##' @param best.bitscore Logical. If TRUE, output includes best bitscores of donor and recipient.
 ##' @return dataframe
-##' @importFrom stats complete.cases
+##' @importFrom stats aggregate
 ##' @export 
 ##' @author Lei Yang
 ##' @references 1. L Yang, X Chen. Manuscript in preparation.
