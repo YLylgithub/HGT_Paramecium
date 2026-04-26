@@ -25,4 +25,4 @@ Suggests:
 VignetteBuilder: knitr
 BugReports: https://github.com/seanchen607/AlienindexR/issues
 biocViews: Alignment, Annotation, Software
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.3
