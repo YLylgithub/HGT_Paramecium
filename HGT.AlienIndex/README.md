@@ -17,7 +17,7 @@
 To acquire the homolog search result in the correct format, use parameter below: 
 
 	# for BLAST
-	-outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore'
+	-outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore
   
 	# for diamond
 	-outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore
@@ -36,7 +36,7 @@ To calculate Alien Index for shared homologs in the target species with donor/re
 	# Calculate Alien Index
 	HGT.AlienIndex(test_donor, test_recipient, best.evalue = TRUE)
 
-HGT.AlienIndex will output a two-column data frame containing the gene names and their corresponding Alien Indexes.
+HGT.AlienIndex will output a data frame containing the gene names and their corresponding Alien Indexes.
 
 ## :orange_book: What is Alien Index (AI)?
 
@@ -61,7 +61,13 @@ Marine College, Shandong University, Weihai
 
 <https://www.researchgate.net/profile/Xiao_Chen126>
 
-If you use [AlienindexR](https://github.com/seanchen607/AlienindexR) in
+Lei YANG, Ph.D. Candidate
+
+Marine College, Shandong University, Weihai
+
+<2534990076@qq.com>
+
+If you use [HGT.Alienindex](https://github.com/YLylgithub/HGT_Paramecium/HGT.AlienIndex/) in
 published research, please cite the most appropriate paper(s) from this
 list:
 

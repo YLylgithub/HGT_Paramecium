@@ -10,6 +10,8 @@ HGT.AlienIndex(blast_output_donor, blast_output_recipient, best.evalue = TRUE)
 \item{blast_output_donor}{Input file with 12 columns in tab-delimited format}
 
 \item{blast_output_recipient}{Input file with 12 columns in tab-delimited format}
+
+\item{best.evalue}{Logical. If TRUE, output includes best evalues of donor and recipient.}
 }
 \value{
 dataframe
@@ -20,7 +22,7 @@ dataframe
 \details{
 The output by BLAST or diamond BLAST will be used as input of 'HGT.AlienIndex' and should be in a tabular format with 12 columns. 
 
-For BLAST, the output parameter should be: -outfmt '6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore'. 
+For BLAST, the output parameter should be: -outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore. 
 
 For diamond BLAST, the output parameter should be: -outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore.
 }
@@ -33,5 +35,5 @@ HGT.AlienIndex(test_donor, test_recipient, best.evalue = TRUE)
 1. X Chen, L Yang. Manuscript in preparation.
 }
 \author{
-Xiao Chen
+Xiao Chen, Lei Yang
 }

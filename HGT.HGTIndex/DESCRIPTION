@@ -1,0 +1,27 @@
+Package: HGT.AlienIndex
+Type: Package
+Title: Calculate Alien Index (AI) for genes in target species based on homolog search
+Version: 0.99.1
+Authors@R: c(
+    person("Xiao", "Chen", role = "aut"),
+    person("Lei", "Yang", email = "2534990076@qq.com", role = c("aut", "cre"))
+  )
+Description: 'HGT.AlienIndex' calculates Alien Index (AI) for genes in target species from BLAST results between this species and donor/recipient species.
+    Donor species are potential donors of a homologous gene with alien source. Recipient species are close relatives to the target species.
+    The output by BLAST or diamond BLAST will be used as input of 'HGT.Alienindex' and should be in a tabular format with 12 columns.
+    For BLAST, the output parameter should be: -outfmt '6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore'.
+    For diamond BLAST, the output parameter should be: -outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore.
+License: Artistic-2.0
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 3.5.0)
+Imports:
+    stats
+Suggests:
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+BugReports: https://github.com/YLylgithub/HGT.AlienIndex/issues
+biocViews: Alignment, Annotation, Software
+RoxygenNote: 7.3.3
