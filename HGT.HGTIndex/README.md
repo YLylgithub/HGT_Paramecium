@@ -53,13 +53,13 @@ and ***best recipient bitscore*** is the bitscore from the best hit assigned to 
 
 ## :pencil2: Authors
 
-Lei YANG, Ph.D. Candidate
+Lei Yang, Ph.D. Candidate
 
 Marine College, Shandong University, Weihai
 
 <2534990076@qq.com>
 
-Xiao CHEN, PhD
+Xiao Chen, PhD
 
 Marine College, Shandong University, Weihai
 
