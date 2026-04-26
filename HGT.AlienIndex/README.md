@@ -1,7 +1,7 @@
 # HGT.AlienIndex 
 ### an R package to calculate Alien Index (AI) for genes in target species based on homolog search.
 
-[![](https://img.shields.io/badge/release%20version-0.99.1-green.svg)](https://github.com/YLylgithub/HGT.Paramecium/)
+[![](https://img.shields.io/badge/release%20version-0.99.1-green.svg)](https://github.com/YLylgithub/HGT_Paramecium/HGT.AlienIndex/)
 [![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
 
 ‘HGT.AlienIndex’ calculates Alien Index (AI) for genes in target species from BLAST results between this species and donor/recipient species 
@@ -9,7 +9,7 @@
 ## :gear: Install HGT.AlienIndex in R
 
 	if (!require("devtools")) install.packages("devtools")
-	devtools::install_github("YLylgithub/HGT.Paramecium")
+	devtools::install_github("YLylgithub/HGT_Paramecium/HGT.AlienIndex")
 	library(HGT.AlienIndex)
 
 ## :file_folder: Prepare input files
