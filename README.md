@@ -23,7 +23,7 @@ if (!require("devtools")) install.packages("devtools")
 # Install the packages from the specific subdirectories
 devtools::install_github("YLylgithub/HGT_Paramecium", subdir = "HGT.AlienIndex")
 devtools::install_github("YLylgithub/HGT_Paramecium", subdir = "HGT.HGTIndex")
-
+```
 ## 📖 Quick Start
 
 R
@@ -43,5 +43,5 @@ Lei YANG -  PhD Candidate, Marine College, Shandong University.
 
 Xiao CHEN - PhD, Marine College, Shandong University.
 
-📄 License
+## 📄 License
 This project is distributed under the MIT License.
