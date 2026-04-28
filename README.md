@@ -1,6 +1,6 @@
-# HGT_Paramecium: Evolutionary Analysis of Horizontal Gene Transfer
+# HGT_Paramecium: Custom R Scripts for Identifying Candidate HTGs
 
-This repository provides a high-performance toolkit for identifying and quantifying Horizontal Gene Transfer (HGT) events in ciliate genomes (e.g., *Paramecium bursaria*). It is optimized for large-scale phylogenomic datasets, supporting compressed BLAST results and vectorized computation for maximum efficiency.
+This repository contains custom R scripts and packages developed for the genome-scale identification and validation of candidate Horizontal Gene Transfer (HTG) events.
 
 ## 📦 Core Packages
 
@@ -14,3 +14,7 @@ This repository provides a high-performance toolkit for identifying and quantify
 Lei Yang - PhD Candidate, Marine College, Shandong University.
 
 Xiao Chen - PhD, Marine College, Shandong University.
+
+## 📄 Data Availability
+
+All custom code used for HGT identification in our study is available in this repository. If you utilize these tools or methodologies in your research, please cite our corresponding manuscript.
