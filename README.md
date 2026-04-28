@@ -8,3 +8,9 @@ This repository provides a high-performance toolkit for identifying and quantify
 | :--- | :--- | :--- | :--- |
 | **`HGT.AlienIndex`** | `HGT.AlienIndex()` | **Alien Index (AI)** | Identifies "foreignness" by comparing donor vs. recipient E-values. Optimized for speed and large data. |
 | **`HGT.HGTIndex`** | `HGT.HGTIndex()` | **HGT Index (HI)** | Quantifies HGT intensity using bitscores, providing a metric independent of database size. |
+
+## ✍️ Authors
+
+Lei Yang - PhD Candidate, Marine College, Shandong University.
+
+Xiao Chen - PhD, Marine College, Shandong University.
