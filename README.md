@@ -24,7 +24,7 @@ if (!require("devtools")) install.packages("devtools")
 devtools::install_github("YLylgithub/HGT_Paramecium", subdir = "HGT.AlienIndex")
 devtools::install_github("YLylgithub/HGT_Paramecium", subdir = "HGT.HGTIndex")
 
-📖 Quick Start
+## 📖 Quick Start
 R
 library(HGT.AlienIndex)
 library(data.table)
@@ -35,7 +35,7 @@ library(data.table)
 
 # 2. Run the analysis
 # results <- HGT.AlienIndex(donor, recipient, SequenceID, "MyGenome_Analysis")
-✍️ Authors
+## ✍️ Authors
 Lei YANG -  PhD Candidate, Marine College, Shandong University.
 
 Xiao CHEN - PhD, Marine College, Shandong University.
